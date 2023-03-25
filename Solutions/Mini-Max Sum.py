@@ -10,14 +10,6 @@ The minimum sum is 1 + 3 + 5 + 7 = 16 and the maximum sum is 3 + 5 + 7 + 9 = 24.
 16 24
 """
 
-#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
 #
 # Complete the 'miniMaxSum' function below.
 #
