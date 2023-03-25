@@ -14,14 +14,6 @@ The second line contains (n) space-separated integers that describe arr(n)
 
 """
 
-#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
 #
 # Complete the 'plusMinus' function below.
 #
@@ -44,10 +36,3 @@ def plusMinus(arr):
     print("%.6f" % float(positive_cnt / len(arr)))
     print("%.6f" % float(negative_cnt / len(arr)))
     print("%.6f" % float(zero_cnt / len(arr)))
-
-if __name__ == '__main__':
-    n = int(input().strip())
-
-    arr = list(map(int, input().rstrip().split()))
-
-    plusMinus(arr)
